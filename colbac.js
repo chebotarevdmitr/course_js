@@ -1,4 +1,5 @@
-function printMyName(){
-    console.log("Dmitriy")
+function printMyName() {
+  console.log("Dmitriy");
 }
-printMyName()
+
+setTimeout(printMyName, 1000);
