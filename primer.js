@@ -38,3 +38,10 @@ const button = {
 };
 
 console.table(button);
+console.log("hello " + "Dima");
+
+const hello = "Привет";
+const world = "Дима";
+//const greeting = hello + " " + world;
+const greeting = `${hello} ${world}`;
+console.log(greeting);
