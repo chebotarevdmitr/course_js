@@ -2,7 +2,11 @@ const fnWithError = () => {
   throw new Error("some error");
 };
 
-fnWithError();
- 
-console.log("continue ...")
+try {
+  fnWithError();
+} catch (error) {
+  console.error(error);
+  console.log(error.message);
+}
 
+console.log("continue ...");
