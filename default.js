@@ -18,3 +18,6 @@ const firstPost = {
 }
 
 console.log(newPost(firstPost));
+
+const print =newPost(firstPost);
+console.log(print);
